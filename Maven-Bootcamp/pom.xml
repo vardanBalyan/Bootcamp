@@ -64,12 +64,8 @@
             <scope>compile</scope>
         </dependency>
 
-        <dependency>
-            <!--groupId>com.thoughtworks.xstream</groupId-->
-            <artifactId>xstream</artifactId>
-            <version>1.4.4</version>
-            <scope>provided</scope>
-        </dependency>
+        <!--i had to remove the xstream deendency due to security alert
+         in github-->
     </dependencies>
 
 </project>
